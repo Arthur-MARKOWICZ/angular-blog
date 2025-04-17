@@ -1,18 +1,18 @@
 <div class = "container_big-card" >
     <div class = "big-card_imagem">
         <img 
-            src="https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg"
+            src="{{photoCover}}"
             alt="" 
             height="245px"
             width="300px"
          srcset="">
     </div>
     <div class = "big-card_title">
-        <h1><a href="#">Saiu a nova versão do Angular</a></h1>
+        <h1><a [routerLink]="['content', id]">{{ cardTitle }}</a></h1>
     </div>
     <div class = "big-card_description">
         <p><a href="#">
-            muitas novidades para melhorar a experiência do usuário
+          {{ cardDescription}}
         </a>
         </p>
     </div>

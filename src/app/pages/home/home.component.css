@@ -1,0 +1,13 @@
+.container_articles{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.article_secondary{
+    padding: 18px;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
